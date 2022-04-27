@@ -1,0 +1,12 @@
+{
+  "ApiKeyPasses": [
+    {
+      "ApiKey": "test",
+      "ApiPass": "1234"
+    },
+    {
+      "ApiKey": "test1",
+      "ApiPass": "1234"
+    }
+  ]
+}

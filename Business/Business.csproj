@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="EasyCaching.InMemory" Version="1.5.1" />
+	  <PackageReference Include="EasyCaching.Redis" Version="1.5.1" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	  <PackageReference Include="RabbitMQ.Client" Version="6.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+  </ItemGroup>
+</Project>
